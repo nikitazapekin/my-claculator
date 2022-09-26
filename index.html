@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="vs.css">
+<head></head>
+
+<div class="calculator">
+  <div class="pos">
+    <form class="form" name="form1">
+  <input type="text" class="inp" name="txt"> 
+</form>
+</div>
+<div class="line1">
+  <div class="item" onclick="form1.txt.value+='0'">0</div>
+  <div class="item" onclick="form1.txt.value+='1'">1</div>
+  <div class="item" onclick="form1.txt.value+='2'">2</div>
+  <div class="item" onclick="form1.txt.value+='3'">3</div>
+</div>
+<div class="line2">
+  <div class="item" onclick="form1.txt.value+='4'">4</div>
+  <div class="item" onclick="form1.txt.value+='5'">5</div>
+  <div class="item" onclick="form1.txt.value+='6'">6</div>
+  <div class="item" onclick="form1.txt.value+='7'">7</div>
+</div>
+<div class="line3">
+  <div class="item" onclick="form1.txt.value+='8'">8</div>
+  <div class="item" onclick="form1.txt.value+='9'">9</div>
+<div class="item" onclick="document.form1.txt.value=eval(form1.txt.value)">Calc</div>
+<div class="item" onclick="form1.txt.value=' '">Clear</div>
+</div>
+<div class="line4">
+  <div class="item" onclick="form1.txt.value+='+'">+</div>
+  <div class="item" onclick="form1.txt.value+='-'">-</div>
+<div class="item" onclick="form1.txt.value+='*'">*</div>
+<div class="item" onclick="form1.txt.value+='/'">/</div>
+</div>
+</div>
+<script src="ff.js"></script>
+</html>
